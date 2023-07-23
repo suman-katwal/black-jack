@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkgreen;
+    background-size: cover; 
+    color: whitesmoke;
+}
+p{
+    font-weight: bolder;
+}
+button{
+    background-color: goldenrod;
+    width: 150px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: whitesmoke;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+}
