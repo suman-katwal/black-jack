@@ -6,14 +6,24 @@
         
     </head>
     <body>
-       
-        <h1> Black Jack Game</h1><br />
-        <h2 id="message-el">Would you like to play a round?</h2>
-        <p id = "cardsnumbers-el">Cards:</p>
-        <p id = "totalScore-el">Sum: </p>
-        <button id="startgame" onclick="startGame()">START GAME</button><br />
-        <button id="newcard" onclick="newCard()">NEW CARD</button><br />
-        <p id="player-el"></p>
-        <script src = "script.js" ></script>
+       <div class="body">
+
+            <h1> Black Jack Game</h1><br />
+            <h2 id="message-el">Would you like to play a round?</h2>
+            <p id = "cardsnumbers-el">Cards:</p>
+            <p id = "totalScore-el">Sum: </p>
+            <button id="startgame" onclick="startGame()">START GAME</button><br />
+            <button id="newcard" onclick="newCard()">NEW CARD</button><br />
+            <p id="player-el"></p>
+            <script src = "script.js" ></script>
+        </div>
+        <div class="instructions">
+            <h2>Instructions</h2>
+            <p>Click on start to play the game</p>
+            <p> If Sum is exactly 21 you win, 10 chips are added to Player.</p>
+            <p> If Sum is below 21 you can get new card by clicking on NEW CARD Button.</p>
+            <p> If Sum is above 21 you lose and 10 chips are reduced from Player.</p>
+            <p> The start game button will re-start the game so chips are set back to original amount.</p>
+        </div>
     </body>
 </html>

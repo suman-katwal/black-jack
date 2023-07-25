@@ -1,9 +1,22 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: darkgreen;
     background-size: cover; 
     color: whitesmoke;
+}
+.body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+}
+.instructions{
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 p{
     font-weight: bolder;
@@ -15,8 +28,8 @@ h1{
 button{
     background-color: goldenrod;
     width: 150px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin-top: 2px;
     margin-bottom: 2px;
     color: whitesmoke;
