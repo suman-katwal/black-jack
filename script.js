@@ -49,6 +49,7 @@ function renderGame() {
     if (sum === 21) {
         message = "You Won! its a black jack!!!"
         hasBlackJack = true
+        playerEl.textContent = player.name + ": $" + (player.chips+10)
     } else if (sum < 21) {
         message = "Would you like to get a new Card??"
     } else {
