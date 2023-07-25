@@ -8,6 +8,10 @@ body{
 p{
     font-weight: bolder;
 }
+
+h1{
+    color: goldenrod;
+}
 button{
     background-color: goldenrod;
     width: 150px;
